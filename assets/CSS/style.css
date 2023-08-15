@@ -9,15 +9,19 @@ body {
     font-family: 'Roboto', sans-serif;
     max-width: 375px;
     margin: auto;
-    
+    background-color: hsl(234, 29%, 20%);
 }
 img{
     background-color: white;
     margin-bottom: -5px;
 }
+.desktop{
+    display: none;
+}
 article {
     padding: 10px;
     background-color: white;
+    
 }
 
 h1 {
@@ -36,6 +40,7 @@ img.check {
     text-align: center;
     padding-top: 0px;
     padding-bottom: 15px;
+    display: inline;
 }
 
 form {
@@ -57,7 +62,13 @@ input{
     border-radius: 10px;
     border-style: ridge;
 }
-.botão{
+.botao{
     color: white;
     background-color: hsl(234, 29%, 20%);
+}
+.page2{
+    margin-top: 100px;
+}
+.sus{
+    margin: 10px;
 }

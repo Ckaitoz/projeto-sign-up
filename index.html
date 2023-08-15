@@ -7,7 +7,9 @@
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
-  <link rel="stylesheet" href="assets/CSS/style.css" />
+  <link rel="stylesheet" href="assets/CSS/style.css" media="all"/>
+
+  <link rel="stylesheet" href="assets/CSS/media.css">
 
   <title>
     Frontend Mentor | Newsletter sign-up form with success message
@@ -33,37 +35,36 @@
   <img src="assets/images/illustration-sign-up-mobile.svg" alt="imagem de negocios" />
 
   <article>
-    <h1>Stay updated!</h1>
-    <p>Join 60,000+ product managers receiving monthly updates on:</p>
-    <p>
-      <img class="check" src="assets/images/icon-list.svg" alt="verificado da lista" />
-      Product discovery and building what matters
-    </p>
-    <p>
-      <img class="check" src="assets/images/icon-list.svg" alt="verificado da lista" />
-      Measuring to ensure updates are a success
-    </p>
-    <p>
-      <img class="check" src="assets/images/icon-list.svg" alt="verificado da lista" /> And
-      much more!
-    </p>
-  </article>
 
-  <form action="">
-    <label for="email">Email address</label>
+    <img class="desktop" src="assets/images/illustration-sign-up-desktop.svg" alt="imagem de negocios">
 
-    <input type="email" name="email" id="imail" placeholder="email@company.com" />
-
-    <input class="botão" type="button" value="Subscribe to monthly newsletter" />
-  </form>
-
+    <div>
+      <h1>Stay updated!</h1>
+      <p>Join 60,000+ product managers receiving monthly updates on:</p>
+      <p>
+        <img class="check" src="assets/images/icon-list.svg" alt="verificado da lista" />
+        Product discovery and building what matters
+      </p>
+      <p>
+        <img class="check" src="assets/images/icon-list.svg" alt="verificado da lista" />
+        Measuring to ensure updates are a success
+      </p>
+      <p>
+        <img class="check" src="assets/images/icon-list.svg" alt="verificado da lista" /> And
+        much more!
+      </p>
+        
+      
+        <form action="assets/success.html">
+      <label for="email">Email address</label>
+      <input type="email" name="email" id="imail" placeholder="email@company.com" required />
+      <input class="botao" type="submit" value="Subscribe to monthly newsletter" />
+        </form>
+    </div>
+</article>
   <!-- Sign-up form end -->
 
   <!-- Success message start -->
-
-  Thanks for subscribing! A confirmation email has been sent to
-  ash@loremcompany.com. Please open it and click the button inside to confirm
-  your subscription. Dismiss message
 
   <!-- Success message end -->
 

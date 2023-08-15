@@ -1,0 +1,49 @@
+@media screen and (min-width:768px) {
+    body{
+        max-width: 1000px;
+        max-height: 1020px;
+        background-color:  hsl(234, 29%, 20%);
+    }
+    article{
+        position: relative;
+        top: 100px;
+        height: 600px;
+        padding: 20px;
+        border-radius: 30px;
+    }
+    img{
+        display: none;
+    }
+    .desktop{
+        display: flex;
+        float: right;
+        
+    }
+    div{
+        padding: 50px 20px 20px 30px;
+        max-width: 430px;
+        max-height: 500px;
+        
+    }
+    h1{
+        text-align: center;
+        font-size: 4em;
+    }
+    form{
+        padding-top: 20px;
+    }
+    .page2{
+        margin: auto;
+        max-width: 420px;
+        border-radius: 20px;
+        margin-top: 100px;
+        height: 420px;
+        padding: 35px;
+    }
+    .page2 h1{
+        text-align: left;
+    }
+    .sus{
+        display: block;
+    }
+}
