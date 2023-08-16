@@ -58,13 +58,15 @@ label{
 input{
     padding: 15px;
     margin-bottom: 25px;
-    
     border-radius: 10px;
     border-style: ridge;
 }
 .botao{
     color: white;
     background-color: hsl(234, 29%, 20%);
+}
+input.botao:hover{
+    background-image: linear-gradient( to left, #ff6257, #E86643,#FF8B4A, #E84370 80%);
 }
 .page2{
     margin-top: 100px;
